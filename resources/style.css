@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* 01. ---------- HEADER ---------- */
+
+/* ----- NAV BAR ----- */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    padding: 0 16px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+}
+
+.academy {
+    color: gray;
+}
+
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    padding: 0 8px;
+    color: rgb(56, 56, 56);
+}
+
+
+
+/* ----- HERO SECTION ----- */
+
+header {
+    background-color: lightgray;
+}
+
+
+
+
+
+/* 02. ---------- MAIN / SECTIONS ---------- */
+
+/* ----- KEEP PRACTICING / SECTION 01 ----- */
+
+
+
+/* ----- START LEARNING / SECTION 02 ----- */
+.learning {
+    background-color: rgb(243, 243, 243);
+}
+
+
+/* ----- THESIS EXHIBIT / SECTION 03 ----- */
+
+
+
+
+
+
+/* 03. ---------- FOOTER ---------- */
+
+footer {
+    border-top: solid 1px lightgray;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px 40px;
+    color: gray;
+    font-size: 12px;
+}
+
+.copyright, .footer-links {
+    padding: 16px 24px 30px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    padding: 0 5px;
+    color: gray;
+}
+
+/* ----- MOBILE RESPONSIVE ----- */
